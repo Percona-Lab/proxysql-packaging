@@ -50,7 +50,7 @@ override_dh_auto_configure:
 
 override_dh_auto_build:
 	@echo "RULES.$@"
-	make clean && make debug
+	make clean && make
 	touch $@ 
 
 override_dh_auto_install:
